@@ -16,7 +16,7 @@ internal static class PluginManager
     // No update expected.
     private const string BOnDutyStateChanged = "OnOnDutyStateChanged";
     private const string BCalloutManagerPlugins = "plugins";
-    // These (LSPDFR Build 0.4.9572.22921) need to be updated everytime LSPDFR updates.
+    // These (LSPDFR Build 0.4.9695.26411) need to be updated everytime LSPDFR updates.
     // In the following you should always copy what is inside <...> into the related constants.
     // In order to find all of these you need to head to LSPD_First_Response.Mod.API.Functions and look for the 'GetAllUserPlugins()' method.
     // 1. There you should find something like: 'return <BCalloutManagerHolder>.<BCalloutManagerInstance>.CM_ASSEMBLIES_PROPERTY'
@@ -27,11 +27,11 @@ internal static class PluginManager
     // 3. Look in the <BCalloutManager> class for a field with this signature: 'private List<Type> <BCalloutManagerCallouts>;'.
     //
     // There you go! :)
-    private const string BCalloutManager = "TsDyIQdZIESHvjyfcenpzNgcVHCy";
-    private const string BCalloutManagerHolder = "ZnDLDHkdcQnCTEiXEPfARdNbCUmgA";
-    private const string BCalloutManagerInstance = "kCpEvnMvxVrUiFWSCoYMcPlkzNvf";
-    private const string BCalloutManagerAssemblies = "LRWlXraIUfPPkrYUvIZNpnoAmhAu";
-    private const string BCalloutManagerCallouts = "AoIROlKeHydaeEJGdpoDinbTNJNrA";
+    private const string BCalloutManager = "XFRBDVEOmUFRXKTvrEIAdUBcTHLNc";
+    private const string BCalloutManagerHolder = "FNVkSOJMYYeItuvZZWCtawgOmKrT";
+    private const string BCalloutManagerInstance = "wntaNmjrBZqlWbCYLQXnZbMBEjsgA";
+    private const string BCalloutManagerAssemblies = "RBMMSaJXwpiBCNIOgaqaEUTdQzBGA";
+    private const string BCalloutManagerCallouts = "WmCeHedtzimkMrJIcjXgOwAqnVWx";
 
     #endregion
 
